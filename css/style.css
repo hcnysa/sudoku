@@ -1,0 +1,38 @@
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+} */
+
+/* canvas {
+    border: 1px solid black;
+} */
+
+
+
+.center-screen {
+    align-content: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+    justify-items: center !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+
+
+
+
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
